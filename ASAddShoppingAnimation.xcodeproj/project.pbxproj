@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044650381DCAD88A00420D33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044650371DCAD88A00420D33 /* main.m */; };
+		0446503B1DCAD88A00420D33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446503A1DCAD88A00420D33 /* AppDelegate.m */; };
+		0446503E1DCAD88A00420D33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446503D1DCAD88A00420D33 /* ViewController.m */; };
+		044650411DCAD88A00420D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0446503F1DCAD88A00420D33 /* Main.storyboard */; };
+		044650431DCAD88A00420D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044650421DCAD88A00420D33 /* Assets.xcassets */; };
+		044650461DCAD88A00420D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044650441DCAD88A00420D33 /* LaunchScreen.storyboard */; };
+		0446504F1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446504E1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.m */; };
+		044650521DCAD8FB00420D33 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044650511DCAD8FB00420D33 /* SubViewController.m */; };
+		044650551DCAE47900420D33 /* ThrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044650541DCAE47900420D33 /* ThrViewController.m */; };
+		044650581DCAE48000420D33 /* ForViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044650571DCAE48000420D33 /* ForViewController.m */; };
+		0446508A1DCB330E00420D33 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044650881DCB330E00420D33 /* CustomCell.m */; };
+		0446508B1DCB330E00420D33 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044650891DCB330E00420D33 /* CustomCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044650331DCAD88900420D33 /* ASAddShoppingAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAddShoppingAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044650371DCAD88A00420D33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044650391DCAD88A00420D33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0446503A1DCAD88A00420D33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0446503C1DCAD88A00420D33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0446503D1DCAD88A00420D33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044650401DCAD88A00420D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044650421DCAD88A00420D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044650451DCAD88A00420D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044650471DCAD88A00420D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0446504D1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASAddShoppingAnimaiton.h; path = ../ASAddShoppingAnimaiton.h; sourceTree = "<group>"; };
+		0446504E1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASAddShoppingAnimaiton.m; path = ../ASAddShoppingAnimaiton.m; sourceTree = "<group>"; };
+		044650501DCAD8FB00420D33 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		044650511DCAD8FB00420D33 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		044650531DCAE47900420D33 /* ThrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThrViewController.h; sourceTree = "<group>"; };
+		044650541DCAE47900420D33 /* ThrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThrViewController.m; sourceTree = "<group>"; };
+		044650561DCAE48000420D33 /* ForViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForViewController.h; sourceTree = "<group>"; };
+		044650571DCAE48000420D33 /* ForViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForViewController.m; sourceTree = "<group>"; };
+		044650871DCB330E00420D33 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		044650881DCB330E00420D33 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		044650891DCB330E00420D33 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044650301DCAD88900420D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0446502A1DCAD88900420D33 = {
+			isa = PBXGroup;
+			children = (
+				044650351DCAD88900420D33 /* ASAddShoppingAnimation */,
+				044650341DCAD88900420D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044650341DCAD88900420D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044650331DCAD88900420D33 /* ASAddShoppingAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044650351DCAD88900420D33 /* ASAddShoppingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				044650391DCAD88A00420D33 /* AppDelegate.h */,
+				0446503A1DCAD88A00420D33 /* AppDelegate.m */,
+				0446503C1DCAD88A00420D33 /* ViewController.h */,
+				0446503D1DCAD88A00420D33 /* ViewController.m */,
+				044650871DCB330E00420D33 /* CustomCell.h */,
+				044650881DCB330E00420D33 /* CustomCell.m */,
+				044650891DCB330E00420D33 /* CustomCell.xib */,
+				044650501DCAD8FB00420D33 /* SubViewController.h */,
+				044650511DCAD8FB00420D33 /* SubViewController.m */,
+				044650531DCAE47900420D33 /* ThrViewController.h */,
+				044650541DCAE47900420D33 /* ThrViewController.m */,
+				044650561DCAE48000420D33 /* ForViewController.h */,
+				044650571DCAE48000420D33 /* ForViewController.m */,
+				044650591DCAE4D900420D33 /* Tool */,
+				0446503F1DCAD88A00420D33 /* Main.storyboard */,
+				044650421DCAD88A00420D33 /* Assets.xcassets */,
+				044650441DCAD88A00420D33 /* LaunchScreen.storyboard */,
+				044650471DCAD88A00420D33 /* Info.plist */,
+				044650361DCAD88A00420D33 /* Supporting Files */,
+			);
+			path = ASAddShoppingAnimation;
+			sourceTree = "<group>";
+		};
+		044650361DCAD88A00420D33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044650371DCAD88A00420D33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044650591DCAE4D900420D33 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0446504D1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.h */,
+				0446504E1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044650321DCAD88900420D33 /* ASAddShoppingAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0446504A1DCAD88A00420D33 /* Build configuration list for PBXNativeTarget "ASAddShoppingAnimation" */;
+			buildPhases = (
+				0446502F1DCAD88900420D33 /* Sources */,
+				044650301DCAD88900420D33 /* Frameworks */,
+				044650311DCAD88900420D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASAddShoppingAnimation;
+			productName = ASAddShoppingAnimation;
+			productReference = 044650331DCAD88900420D33 /* ASAddShoppingAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0446502B1DCAD88900420D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = haohao;
+				TargetAttributes = {
+					044650321DCAD88900420D33 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0446502E1DCAD88900420D33 /* Build configuration list for PBXProject "ASAddShoppingAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0446502A1DCAD88900420D33;
+			productRefGroup = 044650341DCAD88900420D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044650321DCAD88900420D33 /* ASAddShoppingAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044650311DCAD88900420D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044650461DCAD88A00420D33 /* LaunchScreen.storyboard in Resources */,
+				044650431DCAD88A00420D33 /* Assets.xcassets in Resources */,
+				0446508B1DCB330E00420D33 /* CustomCell.xib in Resources */,
+				044650411DCAD88A00420D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0446502F1DCAD88900420D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044650521DCAD8FB00420D33 /* SubViewController.m in Sources */,
+				044650551DCAE47900420D33 /* ThrViewController.m in Sources */,
+				0446508A1DCB330E00420D33 /* CustomCell.m in Sources */,
+				0446504F1DCAD8BE00420D33 /* ASAddShoppingAnimaiton.m in Sources */,
+				044650581DCAE48000420D33 /* ForViewController.m in Sources */,
+				0446503E1DCAD88A00420D33 /* ViewController.m in Sources */,
+				0446503B1DCAD88A00420D33 /* AppDelegate.m in Sources */,
+				044650381DCAD88A00420D33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0446503F1DCAD88A00420D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044650401DCAD88A00420D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044650441DCAD88A00420D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044650451DCAD88A00420D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044650481DCAD88A00420D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044650491DCAD88A00420D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0446504B1DCAD88A00420D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASAddShoppingAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.ASAddShoppingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0446504C1DCAD88A00420D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASAddShoppingAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.ASAddShoppingAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0446502E1DCAD88900420D33 /* Build configuration list for PBXProject "ASAddShoppingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044650481DCAD88A00420D33 /* Debug */,
+				044650491DCAD88A00420D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0446504A1DCAD88A00420D33 /* Build configuration list for PBXNativeTarget "ASAddShoppingAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0446504B1DCAD88A00420D33 /* Debug */,
+				0446504C1DCAD88A00420D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0446502B1DCAD88900420D33 /* Project object */;
+}
